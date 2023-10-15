@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Enter Your Name</title>
+    <link rel="stylesheet" type="text/css" href="resources/styles.css">
+</head>
+<body>
+<h1>Please Enter Your Name</h1>
+
+<form action="Main" method="post">
+    <div class="form-field">
+        <label for="firstName" class="name-field">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name ([A-Z] and [a-z])">
+    </div>
+
+    <div class="form-field">
+        <label for="lastName" class="name-field">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name ([A-Z] and [a-z])" >
+    </div>
+
+    <div class="form-field">
+        <label class="name-field">Gender: </label>
+        <input type="radio" id="male" name="gender" value="Male" style="margin-right: 5px;"> Male
+    </div>
+    <div class="form-field">
+        <input type="radio" id="female" name="gender" value="Female"> Female
+    </div>
+    <div class="form-field">
+        <input type="radio" id="other" name="gender" value="Other"> Other
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>
